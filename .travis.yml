@@ -37,15 +37,7 @@ matrix:
       language: objective-c
       osx_image: xcode10.2
       before_script:
-        - pip install six
-        - brew update
-        - brew uninstall --ignore-dependencies -f libimobiledevice
-        - brew uninstall --ignore-dependencies -f usbmuxd
-        - brew install --HEAD usbmuxd
-        - brew unlink usbmuxd
-        - brew link usbmuxd
-        - brew install --HEAD libimobiledevice
-        - brew install ideviceinstaller
+        - pod repo update
       script:
         - flutter doctor && cd example && flutter -v build ios --no-codesign
 before_install:
