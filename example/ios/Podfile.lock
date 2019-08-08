@@ -1,0 +1,33 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_push_plugin (0.0.1):
+    - Flutter
+    - JPush (= 3.2.2-noidfa)
+  - JCore (2.1.1)
+  - JPush (3.2.2-noidfa):
+    - JCore (< 3.0.0, >= 2.0.0)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_push_plugin (from `.symlinks/plugins/flutter_push_plugin/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JCore
+    - JPush
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_push_plugin:
+    :path: ".symlinks/plugins/flutter_push_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_push_plugin: e0891926c23b5993eccc68bdc46225a079a5317c
+  JCore: 4072327557f0b83cc22dd4041f2f839740c0077b
+  JPush: d7e9b68edde1e4061e8a61605049b1673cd89df2
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.7.5
